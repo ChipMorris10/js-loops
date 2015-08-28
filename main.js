@@ -41,8 +41,11 @@
 
 // 1. ` 0 1 2 3 4 0 1 2 3 4 0 1 2 3 4`
 for (var j = 1; j <= 3; j++) {
+  console.log("J is equal to " + j);
+  console.log("");
   for (var i = 0; i <= 4; i++) {
-console.log(i);
+console.log("I is equal to " + i);
+
   }
 }
 
